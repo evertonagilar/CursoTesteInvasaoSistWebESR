@@ -1,0 +1,3 @@
+Aluno: esruser/esruser
+Servidor: esruser/esruser
+LDAP: cn=Manager,dc=rnp,dc=br/esruser

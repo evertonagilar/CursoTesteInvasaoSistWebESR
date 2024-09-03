@@ -1,0 +1,12 @@
+OWASP Top Ten - https://owasp.org/www-project-top-ten/
+Utilizando o OWASP ZAP: https://www.youtube.com/watch?v=8euyZGBL3K0
+
+Projetos Utilizados no Curso:
+Webgoat - https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project
+DVWA - http://www.dvwa.co.uk/
+BeEF - https://beefproject.com/
+BodgeIT Store -  https://github.com/psiinon/bodgeit
+Gruyere - https://google-gruyere.appspot.com/
+Multilidae - https://sourceforge.net/projects/mutillidae/
+Vicnum Game - http://vicnum.ciphertechs.com/
+WackoPicko - https://github.com/adamdoupe/WackoPicko
